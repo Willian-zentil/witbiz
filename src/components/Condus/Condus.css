@@ -1,0 +1,56 @@
+.section-condus .container-condus{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0 80px 0;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.section-condus {
+    background-color: rgb(7, 37, 79);
+}
+
+.section-condus p {
+    color: white;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.cards-condus {
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #FFFFFF;
+    margin: 80px 25px 0px 25px;
+    padding: 65px 30px 30px 20px;
+    width: 20%;
+    position: relative;
+    text-align: start;
+}
+
+.cards-condus img {
+    position: absolute;
+    width: 80px;
+    top: -40px;
+}
+
+.cards-condus span {
+    font-weight: bold;
+}
+
+.no-border {
+    border: none;
+    padding: 65px 30px 30px 20px;
+    margin: 80px 55px 0px 0px;
+}
+
+.no-border h3  {
+    font-size: 30px;
+}
+
+@media(max-width: 660px){
+    .cards-condus {
+        width: 100%;
+    }
+}

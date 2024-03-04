@@ -1,0 +1,148 @@
+.menu {
+    background-color: #07254F73;
+    padding: 20px 0;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+}
+
+.menu a {
+    color: white;
+    padding: 13px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-white {
+    font-size: 12px;
+    font-weight: 800 !important;
+    fill: #034BB2;
+    color: #034BB2 !important;
+    background-color: #FFFFFF;
+    border-radius: 25px 25px 25px 25px;
+    padding: 10px 30px 10px 30px !important;
+    position: absolute;
+    top: -5px;
+    margin-left: 120px;
+}
+
+.container-menu {
+    position: relative;
+}
+
+.banner {
+    background-image: url("https://conduscamp.com.br/wp-content/uploads/2023/09/background-image-1.webp");
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3,
+span {
+    margin: 0;
+    color: white;
+    font-family: "Montserrat", Sans-serif;
+}
+
+h3 {
+    font-size: 38px;
+    font-weight: 800;
+}
+
+span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-saiba {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    fill: #034BB2;
+    color: #034BB2;
+    background-color: #FFFFFF;
+    border-radius: 25px 25px 25px 25px;
+    padding: 5px 25px 5px 25px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.card img {
+    max-width: 50px;
+    margin-bottom: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    min-height: 200px;
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+    transition-duration: 1000ms;
+    min-width: 240px;
+}
+
+.card:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card:hover {
+    background-color: #07254F;
+}
+
+.card:hover img {
+    filter: invert(1);
+}
+
+.card:hover span {
+    color: white;
+}
+
+.card span {
+    color: black;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 100px;
+    box-shadow: 0px 0px 44px 0px rgba(0, 0, 0, 0.5);
+    max-width: max-content;
+    margin: 0 auto;
+}
+
+@media(max-width: 1360px) {
+    .container-cards {
+        flex-direction: column;
+    }
+
+    .btn-white {
+        position: relative;
+        margin: 0;
+        top: unset;
+    }
+    .container-menu {
+        white-space: nowrap;
+        overflow: hidden;
+
+        width: 320px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

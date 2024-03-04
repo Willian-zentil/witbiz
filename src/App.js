@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Fullbanner from './components/FullBanner/Fullbanner';
+import QuemSomos from './components/QuemSomos/QuemSomos'
+import Condus from './components/Condus/Condus';
+import Noticias from './components/Noticias/Noticias';
+import Duvida from './components/Duvida/Duvida';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Fullbanner />
+      <QuemSomos />
+      <Condus />
+      <Noticias />
+      <Duvida />
+      <Footer />
     </div>
   );
 }
