@@ -1,0 +1,84 @@
+.section-duvida {
+
+    background-image: url('../../image/bg.webp');
+    padding: 100px 0;
+    background-size: cover;
+}
+
+.container-duvida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 70px 0;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.section-duvida .container-title{
+    max-width: 400px;
+}
+
+.section-duvida form {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.section-duvida input { 
+    height: 58px;
+    background-color: rgb(3, 75, 178);
+    border: none;
+    margin: 4px 0;
+    padding-left: 30px;
+}
+
+.section-duvida input::placeholder {
+    color: rgb(199, 199, 199);
+    font-weight: bold;
+}
+
+.section-duvida h3 {
+    color: #034BB2;
+    text-align: start;
+    line-height: 1;
+}
+
+.container-half {
+    width: 100%;
+}
+
+.container-half input {
+    width: 45.3%;
+}
+
+.container-half input:first-child {
+    margin-right: 10px;
+}
+
+.mensagem {
+    height: 150px!important;
+}
+
+.section-duvida button {
+    background-color: rgb(7, 37, 79);
+    color: white;
+    height: 50px;
+    font-weight: bold;
+}
+
+@media(max-width: 1360px){
+    .container-duvida {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .container-duvida form{
+        width: 100%;
+        overflow: hidden
+    }
+    .container-half input {
+        width: 100%;
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a22610d5.css",
+    "main.js": "/static/js/main.31998fa9.js",
+    "static/media/cabo.png": "/static/media/cabo.38f3976b9f6f3ac7a1b4.png",
+    "static/media/bg.webp": "/static/media/bg.1810d8c1980a6a87dfec.webp",
+    "static/media/wire.png": "/static/media/wire.7c901f8cc9ac5b84deb4.png",
+    "static/media/metro.webp": "/static/media/metro.ad5dfbca00fee3a8a380.webp",
+    "static/media/logistica.webp": "/static/media/logistica.6f68775f9be178b41289.webp",
+    "static/media/exp.webp": "/static/media/exp.ef00da779d05bab37154.webp",
+    "static/media/logo-cabex.webp": "/static/media/logo-cabex.6831835adc0199fba900.webp",
+    "static/media/logo-boreal.webp": "/static/media/logo-boreal.ded8f607939b648021d6.webp",
+    "static/media/qualidade.webp": "/static/media/qualidade.5cb5b37b9f798abc4090.webp",
+    "static/media/logo-induscabos.webp": "/static/media/logo-induscabos.a2a423f5e61f7ce81fa4.webp",
+    "static/media/atendimento.webp": "/static/media/atendimento.fc454c9ad267e63716d5.webp",
+    "index.html": "/index.html",
+    "main.a22610d5.css.map": "/static/css/main.a22610d5.css.map",
+    "main.31998fa9.js.map": "/static/js/main.31998fa9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a22610d5.css",
+    "static/js/main.31998fa9.js"
+  ]
+}

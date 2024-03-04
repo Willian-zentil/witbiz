@@ -1,0 +1,70 @@
+.section-parceiros h3 {
+    color: #034BB2;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: start;
+}
+
+.section-parceiros {
+    max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-parceiros-text {
+    max-width: 300px;
+    text-align: start;
+    margin-right: 80px;
+}
+
+.container-parceiros-text p {
+    color: gray;
+}
+
+.section-parceiros img {
+    margin: 0 20px;
+    height: 50px;
+}
+
+.card-news {
+    text-align: start;
+    max-width: 300px;
+}
+
+.card-news span {
+    color: #034bb2 !important;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: start;
+}
+
+#posts {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.card-news img {
+    height: auto;
+    max-width: 300px;
+}
+
+@media(max-width: 1360px){
+    .section-parceiros {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .container-parceiros-text {
+        margin-bottom: 40px;
+    }
+
+    #posts {
+        flex-direction: column;
+        justify-content: center;
+    align-items: center;
+    }
+}
